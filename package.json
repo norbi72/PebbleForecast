@@ -32,6 +32,16 @@
         "resources": {
             "media": [
                 {
+                    "file": "images/MenuImage",
+                    "menuIcon": true,
+                    "name": "MENU_IMAGE",
+                    "targetPlatforms": [
+                        "aplite",
+                        "basalt"
+                    ],
+                    "type": "bitmap"
+                },
+                {
                     "file": "images/night_rain_bw.png",
                     "name": "WEATHER_NIGHT_RAIN",
                     "type": "bitmap"
