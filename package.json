@@ -1,0 +1,84 @@
+{
+    "author": "norbi72@gmail.com",
+    "dependencies": {},
+    "keywords": [],
+    "name": "norbiforecast",
+    "pebble": {
+        "capabilities": [
+            "location"
+        ],
+        "displayName": "Forecast Watch by Norbi",
+        "enableMultiJS": true,
+        "messageKeys": {
+            "KEY_CONDITIONS": 1,
+            "KEY_FORECAST": 12,
+            "KEY_FORECAST_FIRST_TIME": 13,
+            "KEY_FORECAST_PRECIP_INTENSITY": 14,
+            "KEY_FORECAST_PRECIP_PROBABILITY": 15,
+            "KEY_HUMIDITY": 10,
+            "KEY_ICON": 2,
+            "KEY_OZONE": 11,
+            "KEY_PRESSURE": 9,
+            "KEY_READY": 100,
+            "KEY_SUNRISE_HOUR": 3,
+            "KEY_SUNRISE_MIN": 4,
+            "KEY_SUNSET_HOUR": 5,
+            "KEY_SUNSET_MIN": 6,
+            "KEY_TEMPERATURE": 0,
+            "KEY_WIND_DIRECTION": 8,
+            "KEY_WIND_SPEED": 7
+        },
+        "projectType": "native",
+        "resources": {
+            "media": [
+                {
+                    "file": "images/night_rain_bw.png",
+                    "name": "WEATHER_NIGHT_RAIN",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/night_clear_bw.png",
+                    "name": "WEATHER_NIGHT_CLEAR",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/rain_day_bw.png",
+                    "name": "WEATHER_DAY_RAIN",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/sunny_bw.png",
+                    "name": "WEATHER_SUNNY",
+                    "type": "bitmap"
+                },
+                {
+                    "file": "images/drop_bw.png",
+                    "name": "IMAGE_DROP",
+                    "type": "bitmap"
+                },
+                {
+                    "characterRegex": "[0-9:]",
+                    "file": "fonts/SHOWG.TTF",
+                    "name": "FONT_SHOWCARD_30",
+                    "type": "font"
+                },
+                {
+                    "characterRegex": "[a-z0-9 \\--:\u00b0%]",
+                    "file": "fonts/arial.ttf",
+                    "name": "FONT_SMALL_8",
+                    "type": "font"
+                }
+            ]
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt"
+        ],
+        "uuid": "377a6cd3-599b-45eb-9bf2-512bac2aae08",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.1.0"
+}
